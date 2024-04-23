@@ -1,23 +1,24 @@
-Beginner Level:
-Introduction to JavaScript:
-What is JavaScript?
-History and evolution.
-Basic syntax and structure.
-Variables and Data Types:
-Declaring variables.
-Data types (string, number, boolean, etc.).
-Type coercion.
-Operators:
-Arithmetic operators.
-Comparison operators.
-Logical operators.
-Control Flow:
-Conditional statements (if-else, switch).
-Loops (for, while).
-Functions:
-Declaring functions.
-Parameters and return values.
-Function expressions vs. function declarations.
+# Topics
+## Beginner Level:
+-> Introduction to JavaScript: <br>
+-> What is JavaScript? <br>
+-> History and evolution. <br>
+-> Basic syntax and structure. <br>
+-> Variables and Data Types: <br>
+->Declaring variables. <br>
+-> Data types (string, number, boolean, etc.). <br>
+Type coercion. <br>
+### Operators: <br>
+Arithmetic operators.  <br>
+Comparison operators. <br>
+Logical operators. <br>
+### Control Flow: <br>
+Conditional statements (if-else, switch). <br>
+Loops (for, while). <br>
+### Functions: <br>
+Declaring functions. <br>
+Parameters and return values. <br>
+Function expressions vs. function declarations. <br>
 Arrays:
 Creating and accessing arrays.
 Array methods (push, pop, splice, etc.).
@@ -25,7 +26,8 @@ Objects:
 Creating objects.
 Accessing object properties.
 Object methods.
-Intermediate Level:
+
+## Intermediate Level:
 Advanced Functions:
 Arrow functions.
 Closures.
@@ -44,7 +46,8 @@ Asynchronous JavaScript:
 setTimeout, setInterval.
 Promises.
 Async/await.
-Advanced Level:
+
+## Advanced Level:
 ES6+ Features:
 Let and const.
 Destructuring.
