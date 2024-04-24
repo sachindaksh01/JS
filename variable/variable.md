@@ -34,14 +34,79 @@ z = x + y;
 > + The var keyword should only be used in code written for older browsers.
 ### Example -2 
 ```js
+var x = 5;
+var y = 6;
+var z = x + y;
+```
+
+## 2. Create variable - Using let 
+
+
+### Example -3 
+```js
 let x = 5;
 let y = 6;
 let z = x + y;
 ```
 
 
+## 4. Create variable - Using const 
+
+### Example -4
+```js
+const x = 5;
+const y = 6;
+const z = x + y;
+```
+
+## Create mix variable 
+
+### Example -5
+```js
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+```
+
+
+
++ The two variables price1 and price2 are declared with the const keyword.
+
++ These are constant values and cannot be changed.
+
++ The variable total is declared with the let keyword.
+
++ The value total can be changed.
+
+### When to Use var, let, or const?
+ >[!TIP]
+> 1. Always declare variables
+> 2. Always use const if the value should not be changed
+> 3. Always use const if the type should not be changed (Arrays and Objects)
+> 4. Only use let if you can't use const
+> 5. Only use var if you MUST support old browsers.
+
+
+
+## Rule for Creating Variable. 
++ All JavaScript variables must be identified with unique names.
++ These unique names are called identifiers.
++ Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
++ The general rules for constructing names for variables (unique identifiers) are:
++ Names can contain letters, digits, underscores, and dollar signs.
++ Names must begin with a letter.
++ Names can also begin with $ and _ (but we will not use it in this tutorial).
++ Names are case sensitive (y and Y are different variables).
++ Reserved words (like JavaScript keywords) cannot be used as names.
 
 
 
 
-## 2. Create variable - Using var 
+
+
+
+
+
+
+
+
